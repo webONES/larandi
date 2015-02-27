@@ -1,0 +1,18 @@
+# configuracion para el frame
+
+options +FollowSymlinks
+
+<ifmodule mod_rewrite.c>
+
+	RewriteEngine on
+
+	# Si la url solicitada no es un archivo (existente), continuar...
+	# RewriteCond %{REQUEST_FILENAME} !-f
+
+	# Si la url solicitada no es un carpeta (existente), continuar...
+	# RewriteCond %{REQUEST_FILENAME} !-d
+
+	# Se toma todo ese query_string y se pasa como parametro ruta
+	RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)$ index.php?controller=$1&action=$2&data=$3 [L,QSA]
+
+</ifmodule>
