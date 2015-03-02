@@ -3,8 +3,9 @@
 /**
 * g
 */
-class User {
-	
+
+class User extends Model {
+
 	function __construct($data)
 	{
 		$this->firstName = isset($data['firstName']) ? $data['firstName'] : null;
@@ -13,23 +14,6 @@ class User {
 		$this->password  = isset($data['password']) ? $data['password']: null;
 	}
 
-	public function add()
-	{
-		
-	}
-
-	public function delete()
-	{
-		
-	}
-
-	public function modify()
-	{
-		
-	}
-
-	public static function listAll()
-	{
-		
-	}
+	protected $fields = ['firstName', 'lastName', 'email', 'password'];
+	private $table = 'users';
 }

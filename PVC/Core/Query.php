@@ -1,9 +1,10 @@
 <?php 
 
 /**
-* h
+* Query object
 */
-class Controller {
+
+class Query {
 	
 	function __construct()
 	{
