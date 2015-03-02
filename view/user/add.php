@@ -1,6 +1,6 @@
 
 	<div class="row">
-		<form action="<?php echo BASE_URL.'users/store' ?>" method="POST" role="form" accept-chartset="utf-8">
+		<form action="<?= URL::to('users.store'); ?>" method="POST" role="form" accept-chartset="utf-8">
 			<legend>Añadir Usuarios</legend>
 		
 			<div class="form-group">
@@ -20,6 +20,6 @@
 				<input type="password" name="password" id="password-input" class="form-control" required placeholder="tu contraseña">
 			</div>
 			<button type="submit" class="btn btn-primary">Guardar</button>
-			<a href="<?php echo BASE_URL ?>" class="btn btn-default">&laquo; Regresar</a>
+			<a href="<?= URL::to(); ?>" class="btn btn-default">&laquo; Regresar</a>
 		</form>
 	</div>

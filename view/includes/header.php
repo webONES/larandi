@@ -27,13 +27,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<?php echo BASE_URL ?>">PVC</a>
+				<a class="navbar-brand" href="<?= URL::to(); ?>">PVC</a>
 			</div>
 		
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="<?php echo BASE_URL."users/add" ?>">Añadir</a></li>
+					<li><a href="<?= URL::to('users.add'); ?>">Añadir</a></li>
 					<!-- <li><a href="#">Link</a></li> -->
 				</ul>
 			</div><!-- /.navbar-collapse -->
