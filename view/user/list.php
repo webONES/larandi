@@ -7,5 +7,6 @@
 				<span class="small"><?php echo $user->email; ?></span>
 			</h4>
 		</p>
-	<?php } ?>
+    <?php 
+} ?>
 </div>

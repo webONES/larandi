@@ -10,8 +10,8 @@ define('BASE_URL', 'http://localhost:8000/');
 
 
 
-if(ENVIROMENT==="development"){
-	session_save_path(APP_PATH."tmp");
+if(ENVIROMENT==="development") {
+    session_save_path(APP_PATH."tmp");
 }
 session_start();
 

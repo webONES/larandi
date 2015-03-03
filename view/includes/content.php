@@ -1,5 +1,5 @@
-<?php include APP_PATH."/view/includes/header.php"; ?>
+<?php require APP_PATH."/view/includes/header.php"; ?>
 
-<?php include $view; ?>
+<?php require $view; ?>
 
-<?php include APP_PATH."/view/includes/footer.php"; ?>
+<?php require APP_PATH."/view/includes/footer.php"; ?>

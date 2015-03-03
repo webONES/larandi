@@ -1,10 +1,11 @@
 <?php 
 
 /**
-*	Controller Class abstracion
-*	@author Arandi López <arandilopez.93@gmail.com>
+*    Controller Class abstracion
+*    @author Arandi López <arandilopez.93@gmail.com>
 */
 
-abstract class Controller {
-	
+abstract class Controller
+{
+    
 }

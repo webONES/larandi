@@ -4,41 +4,42 @@
 * Model class
 */
 
-abstract class Model implements ActiveRecord {
+abstract class Model implements ActiveRecord
+{
 
-	protected $fields = array();
+    protected $fields = array();
 
-	function __construct()
-	{
-		
-	}
+    function __construct()
+    {
+        
+    }
 
-	public function save()
-	{
-		
-	}
+    public function save()
+    {
+        
+    }
 
-	public function delete()
-	{
-		
-	}
+    public function delete()
+    {
+        
+    }
 
-	public function update()
-	{
-		
-	}
+    public function update()
+    {
+        
+    }
 
-	public static function all()
-	{
+    public static function all()
+    {
 
-	}
+    }
 
-	public static function __toArray( Model $o )
-	{
-		$a = array();
-		foreach ($o->fields as $field) {
-			$a[$field] = $o->$field;
-		}
-		return $a;
-	}
+    public static function __toArray( Model $o )
+    {
+        $a = array();
+        foreach ($o->fields as $field) {
+            $a[$field] = $o->$field;
+        }
+        return $a;
+    }
 }

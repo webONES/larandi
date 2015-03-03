@@ -5,14 +5,15 @@
 * @author Arandi López <arandilopez.93@gmail.com>
 */
 
-interface ActiveRecord {
+interface ActiveRecord
+{
 
-	public function save();
+    public function save();
 
-	public function delete();
+    public function delete();
 
-	public function update();
+    public function update();
 
-	public static function all();
+    public static function all();
 
 }

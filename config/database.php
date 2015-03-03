@@ -2,21 +2,21 @@
 
 return array(
 
-	'default' => 'mysql',
+    'default' => 'mysql',
 
-	'connections' => array(
+    'connections' => array(
 
-		'mysql' => array(
-			'driver'   => 'mysql',
-			'host'      => 'localhost',
-			'name'     => 'pvc',
-			'user'     => 'root',
-			'password' => 'root',
-			'charset'  => 'utf-8'
-		),
-	),
+        'mysql' => array(
+            'driver'   => 'mysql',
+            'host'      => 'localhost',
+            'name'     => 'pvc',
+            'user'     => 'root',
+            'password' => 'root',
+            'charset'  => 'utf-8'
+        ),
+    ),
 
-	'csv_path' => APP_PATH."tmp/database.csv"
+    'csv_path' => APP_PATH."tmp/database.csv"
 
 );
 

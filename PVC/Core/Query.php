@@ -4,10 +4,11 @@
 * Query object
 */
 
-class Query {
-	
-	function __construct()
-	{
-		# code...
-	}
+class Query
+{
+    
+    function __construct()
+    {
+        // code...
+    }
 }
