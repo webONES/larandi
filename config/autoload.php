@@ -13,8 +13,8 @@ spl_autoload_register(
             include_once "model/$className.php";
         }
 
-        if (file_exists("PVC/Core/$className.php")) {
-            include_once "PVC/Core/$className.php";
+        if (file_exists("Larandi/Core/$className.php")) {
+            include_once "Larandi/Core/$className.php";
         }
     }
 );
