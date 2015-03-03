@@ -24,7 +24,7 @@ class App
     {
         $controller = (!$controller) ? DEFAULT_CONTROLLER : $controller;
         $currentController = ucfirst($controller)."Controller";
-        $currentControllerFile = APP_PATH."controller/$currentController.php";
+        $currentControllerFile = APP."controller/$currentController.php";
         if (file_exists($currentControllerFile)) {
             $controllerObject = new $currentController();
             if($method) {
@@ -38,7 +38,7 @@ class App
                     }
                 }else
                 {
-                    include APP_PATH."view/includes/404.php";
+                    include APP."view/includes/404.php";
                 }
             }else{
                 $defMethod = DEFAULT_METHOD;
@@ -47,7 +47,7 @@ class App
         }
         else
         {
-            include APP_PATH."view/includes/404.php";
+            include APP."view/includes/404.php";
         }
     }
 }
