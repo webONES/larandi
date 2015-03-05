@@ -3,6 +3,7 @@ define("ENVIROMENT", "development");
 define("DEFAULT_CONTROLLER", "users");
 define('DEFAULT_METHOD', 'index');
 define('BASE_URL', 'http://localhost:8000/');
+define('ASSETS_PATH', APP_PATH."assets/");
 
 
 

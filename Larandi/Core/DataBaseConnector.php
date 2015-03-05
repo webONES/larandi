@@ -2,10 +2,10 @@
 
 /**
 * Data Base Connector
+* @author Arandi López <arandilopez.93@gmail.com>
 */
 
-class DataBaseConnector
-{
+class DataBaseConnector {
     
     global $database;
 
@@ -20,6 +20,7 @@ class DataBaseConnector
 
         $pdo = new PDO($url, $user, $password);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        return $pdo;
     }
 
     private static makeURL($database){

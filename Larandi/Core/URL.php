@@ -3,8 +3,7 @@
 /**
 * URL class for build urls
 */
-class URL
-{
+class URL {
     
     /**
      * Create an URL based on BASE_URL global

@@ -5,7 +5,6 @@
 *    @author Arandi López <arandilopez.93@gmail.com>
 */
 
-abstract class Controller
-{
+abstract class Controller {
     
 }

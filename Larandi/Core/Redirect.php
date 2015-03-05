@@ -3,8 +3,7 @@
 /**
 * Redirect helper class
 */
-class Redirect
-{
+class Redirect {
     
     public static function to($route=BASE_URL)
     {

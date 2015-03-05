@@ -4,6 +4,7 @@
 * CSV Data Access
 * This is just an example
 * @author Arandi López <arandilopez.93@gmail.com>
+* @deprecated Only for testing
 */
 class CSVDataAccess
 {
@@ -16,7 +17,6 @@ class CSVDataAccess
 
     public function write($data)
     {
-        // Debugger::dump($data);
         $handle = fopen($this->file, 'a+');
         fputcsv($handle, $data);
         fclose($handle);    

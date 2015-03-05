@@ -1,17 +1,11 @@
 <?php 
 
 /**
-* Input interface
+* Input abstraction
+* @author Arandi López <arandilopez.93@gmail.com>
 */
 
-class Input
-{
-    
-    // public static all()
-    // {
-    // 	Debugger::dump($_REQUEST);
-    // 	return $_REQUEST;
-    // }
+class Input {
 
     public static get($key = false)
     {

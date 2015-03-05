@@ -5,9 +5,7 @@
 * @author Arandi López <arandilopez.93@gmail.com>
 */
 
-class App
-{
-    
+class App {
 
     public function run()
     {

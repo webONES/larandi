@@ -1,11 +1,11 @@
 <?php 
 
 /**
-* h
+* View helper
+* @author Arandi López <arandilopez.93@gmail.com>
 */
 
-class View
-{
+class View {
 
     public static function make($view = false, $data = false)
     {

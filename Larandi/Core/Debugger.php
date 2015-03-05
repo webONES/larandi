@@ -1,11 +1,11 @@
 <?php 
 
 /**
-* Debugger
+* Debugger class :)
+* @author Arandi López <arandilopez.93@gmail.com>
 */
 
-class Debugger
-{
+class Debugger {
 
     public static function dump($var, $dump = true, $exit = true)
     {
